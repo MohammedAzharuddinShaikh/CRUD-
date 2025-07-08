@@ -7,4 +7,6 @@ In persistence.xml file there are some of the perperties :-
 1. (*<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />*) -> This statement establishes the connection between Java and MySQL daatabase.
 2. (*<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/CRUD?createDatabaseIfNotExist=true" />*). This statement creates the database if not exist. Here the databse name is CRUD.
+				value="jdbc:mysql://localhost:3306/CRUD?createDatabaseIfNotExist=true" />*)-> This statement creates the database if not exist. Here the databse name is CRUD.
+3. <property name="javax.persistence.jdbc.user"
+				value="root" /> -> 
